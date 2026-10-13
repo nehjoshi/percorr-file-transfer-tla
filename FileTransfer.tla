@@ -1,11 +1,10 @@
 --------------------------- MODULE FileTransfer ---------------------------
-\* Model of send-file-over-network V0: src/leader.py and src/follower.py.
-\* send(2) failures are modeled as message loss, recv(2) failures as timeouts.
+
 
 VARIABLES
-    lState,         \* Leader state, LeaderState in leader.py
-    fState,         \* Follower state, FollowerState in follower.py
-    restartHandled, \* Follower's volatile restart_handled flag
+    lState,         
+    fState,         
+    restartHandled, 
     fResult,        \* result the Follower will put in its BlobReply
     fileOnDisk,     \* TRUE once the Follower's disk durably holds the file
     msgs            \* messages in the network, in both directions
