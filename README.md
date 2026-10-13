@@ -27,3 +27,5 @@ Running:
 
 Notes:
 - FailureIsGenuine is defined but not checked by default. Add "INVARIANT FailureIsGenuine" to the .cfg to see TLC's counterexample, where the Leader reports failure even though the file reaches the Follower.
+- See corresponding Python code [here](https://github.com/nehjoshi/percorr-send-file-over-network).
+- See FigJam diagram of leader and follower state machines [here](https://www.figma.com/board/UXkhn2g3OArWUgZJCK5Ilv/PerCorr-Project-2---File-Transmission?node-id=0-1&t=E5eHPbcr2bWSYLFn-1)
