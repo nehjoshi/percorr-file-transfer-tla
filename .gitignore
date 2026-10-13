@@ -1,0 +1,16 @@
+states/
+*.out
+*_TTrace_*.tla
+*_TTrace_*.bin
+*.tlc
+
+*.tex
+# *.pdf
+*.aux
+*.log
+*.dvi
+*.ps
+
+*.old
+
+.vscode/
